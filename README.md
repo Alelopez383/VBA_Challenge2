@@ -2,19 +2,48 @@
 We are refactoring a code we have done previously to loop through all the data one time in order to collect the same information as before but faster and trying to make lesser steps.
 
 
-#** Overview of the Project:** 
+# ** Overview of the Project:** 
 The purpose of the analysis performed is to help Steve´s parents to make the best investmente decision for the green stocks market, for that, we are going to use Visual Basic for Applications, or VBA, to enhance the analytical power of Excel. In particular, we seek to write an efficient script that allows us to automate the analysis of stocks across different years. 
 
 We are facing a database that includes information on different green stock shares and their performance during the years 2017 and 2018. However, we are looking for an efficient and automated way to review the data and be able to analyze stocks to make optimal decisions. In this case, we want to help Steve's family improve their investments by telling them which stocks had a better return on investment and which ones had large losses, so it would be recommended not to invest in them.
 
-#**Results:** Using images and examples of your code, compare the stock performance between 2017 and 2018, as well as the execution times of the original script and the refactored script.
-We done a code before that 
-Always check which active sheet we want to see the values
-'Always define the type of variable that we are going to use
-'Always define in our command, which variable does what,
-'example: i will be the indication for rows and j will be indication for columns
-'The indication must always end with the second variable (inner loop) and at the end, the first (outer loop)
+# **Results:** 
 
-#**Summary:** In a summary statement, address the following questions.
-##What are the advantages or disadvantages of refactoring code?
-##How do these pros and cons apply to refactoring the original VBA script?
+
+
+![VBA_Challenge_2017](https://user-images.githubusercontent.com/43974872/179879016-ec35c0ad-0315-458d-b7e3-adabe543023c.png)
+![VBA_Challenge_2018](https://user-images.githubusercontent.com/43974872/179879027-853e96b7-f7ad-4db5-b032-d7bf3f9d5eb1.png)
+![VBA_2017 my results](https://user-images.githubusercontent.com/43974872/179880737-daf0464b-c62b-4c2e-ab6a-d2487a57142a.png)
+![VBA_2018 my results](https://user-images.githubusercontent.com/43974872/179880748-fb22f7c2-df6c-4c3f-b509-de6786941604.png)
+
+# **Summary:** 
+
+First of all, refactoring the code was a bit complicated since, although they were the same steps just extrapolating them, the syntax was a problem. The purpose was to repeat the information obtained previously, only with a much shorter and more efficient script. 
+
+To avoid mistakes, I kept certain steps:
+
+1. Always check which active sheet we want to see the values
+2. Always define the type of variable that we are going to use
+3. Always define in the command, which variable does what. Define what the variables are goint to do. Example: 'i' will be the indication for rows and 'j' will be indication for columns.
+4. When using nested loops, the indication must always end with the second variable (inner loop) and at the end, the first (outer loop).
+5. Have a 'clear worksheet' buttom is definitely a must, so we can check easily the results.
+6. Research evrywhere for hints when the code doesnt work. Sometimes the hints doesnt work because we have differente versions (in my case, I assume) 
+
+For example: the hint in canvas for the Step 3a didnt work for me, so I have to search and play a little bit with the syntax, so the code could run.
+
+>To increase the volume of the current tickerVolumes by using the tickerIndex variable as the index, use the following code: tickerVolumes(tickerIndex) = tickerVolumes(tickerIndex) + Cells(i, 8).Value<
+
+So instead I used: 
+ tickerVolumes = tickerVolumes + Cells(j, 8).Value
+ 
+ In the end, to refactoring the code could be simple, if we have very clearly what are we doing when we create variables and run the code.
+ 
+ Maybe I have some mistakes when running the code, because the results are not quite identical, but there are the same results before refactoring the code.
+ 
+ ![2018 before refactor code](https://user-images.githubusercontent.com/43974872/179884589-80ff692e-8038-4dab-a91a-6cde337af5fa.png)
+
+   
+    
+            
+ 
+            
