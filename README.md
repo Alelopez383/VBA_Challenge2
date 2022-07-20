@@ -2,7 +2,7 @@
 We are refactoring a code we have done previously to loop through all the data one time in order to collect the same information as before but faster and trying to make lesser steps.
 
 
-# ** Overview of the Project ** 
+# Overview of the Project  
 The purpose of the analysis performed is to help Steve´s parents to make the best investmente decision for the green stocks market, for that, we are going to use Visual Basic for Applications, or VBA, to enhance the analytical power of Excel. In particular, we seek to write an efficient script that allows us to automate the analysis of stocks across different years. 
 
 We are facing a database that includes information on different green stock shares and their performance during the years 2017 and 2018. However, we are looking for an efficient and automated way to review the data and be able to analyze stocks to make optimal decisions. In this case, we want to help Steve's family improve their investments by telling them which stocks had a better return on investment and which ones had large losses, so it would be recommended not to invest in them.
@@ -25,7 +25,7 @@ In general, the code and the refactoring code showed the same results, but not t
 
 ![VBA_2017 my results](https://user-images.githubusercontent.com/43974872/179880737-daf0464b-c62b-4c2e-ab6a-d2487a57142a.png)
 
-There are slightly differences.
+There are slightly differences for the year 2017, althought, for the year 2018, are the same.
 
 ![VBA_2018 my results](https://user-images.githubusercontent.com/43974872/179880748-fb22f7c2-df6c-4c3f-b509-de6786941604.png)
 
@@ -56,7 +56,7 @@ So instead I used:
  ![2018 before refactor code](https://user-images.githubusercontent.com/43974872/179884589-80ff692e-8038-4dab-a91a-6cde337af5fa.png)
 
    
-    
+ In the end, Steve´s parent should get ENPH stocks, becuase they presented the best returns for both years. In 2017, the stock had a return of 129.5%, and in the year 2018, was of 81.9%.
             
  
             
